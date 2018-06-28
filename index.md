@@ -1,4 +1,4 @@
-<center><a href="bio.md">Bio</a></center>
+<center><a href="bio">Bio</a></center>
 
 # Posts
 
