@@ -1,10 +1,21 @@
-# Mitch Negus
 <img src="portrait.jpg" align="right" style="width: 246px; height: 300px; margin: 0px 30px"> 
 
-## About Me
+Welcome to the site! 
 
-I am a PhD student in the Department of Nuclear Engineering at the University of California, Berkeley, and I am super passionate about sustainability. It is the responsibility of people today to leave a better Earth for the generations of tomorrow. My current research focuses on modeling and simulation of nuclear reactors, and I hope to eventually contribute to the development of modern, computation-based technologies to make widespread sustainable nuclear power a reality.
+My name is Mitch and I am a PhD student at UC Berkeley studying nuclear engineering. 
+Like many of the students I work with on a daily basis, I picked the nuclear field because I am incredibliy passionate about sustainability. 
+As the global human population growns and energy demand increases, finding clean energy sources to meet the needs of modern civilization in an economically feasible and environmentally just way is going to become a critical need.
+I believe that harnessing the energy contained in the nuclei all around us offers our best shot at achieving a clean energy future.
 
-Before starting at Berkeley, I graduated from the University of Massachusetts, Amherst in 2016 with a Bachelor's degree in Physics. At UMass, I was incredibly fortunate to be a member of the third cohort of the iCons (Integrated Concentration in Science) program. iCons allowed me to augment the standard Physics curriculum with an interdisciplinary, team-based, renewable energy concentration. Just as importantly, iCons cultivated a mentality of thinking-big, and led me to consider the potential impact that sustainable, advanced nuclear energy could offer in the march towards a cleaner planet.
+While simulating nuclear physics on some massive supercomputers is my day job, I've discovered a number of other things I'm passionate about here at Berkeley. 
+More and more I see the importance of communication between scientists and the community at large about how, and especially _why_, they are doing research. 
+That realization has inspired me to join in scientific outreach initiatives, get unreasonably thrilled about conducting research in an open and reproducible way, and even find a love for teaching. 
+I guess it's also part of why you're reading this now; without it this page wouldn't exist.
 
-[Github](https://github.com/mitchnegus) | [LinkedIn](https://www.linkedin.com/in/mitchnegus/) | [Twitter](https://twitter.com/mitchnegus)
+My hope is that by sharing what I learn here, I can help you learn something too. My only request is that you keep the trend going, and always be willing to share what you learn with others. Good luck!
+
+<center>
+<a href="https://github.com/mitchnegus">Github</a> | 
+<a href="https://www.linkedin.com/in/mitchnegus">LinkedIn</a> |
+<a href="https://twitter.com/mitchnegus">Twitter</a>
+</center>

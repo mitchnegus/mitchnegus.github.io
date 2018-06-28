@@ -1,7 +1,5 @@
-# Running like a maniac
+<center><a href="bio.md">Bio</a></center>
 
-[Bio](bio.md)
+# Posts
 
-## Posts
-
-[__init__(self)](20180628_init.md)
+[\_\_init\_\_(self)](20180628_init.md)
