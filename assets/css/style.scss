@@ -3,6 +3,21 @@
 
 @import "{{ site.theme }}";
 
+body {
+  color: #ebf1f4;
+}
+a {
+  color: #59caff;
+}
+section {
+
+  #title {
+    p {
+      color: #cceeff        
+    }
+  }
+}
+
 #footer {
   max-width: 650px;
   margin: 0 auto;
@@ -45,3 +60,17 @@
   }
 }
 
+#header {
+  
+  nav {
+    
+    li {
+      
+      a {
+          color: #eeedef;
+          border: 1px solid #2b0d4c;
+          background-color: #270672;
+      }
+    }
+  }
+}
