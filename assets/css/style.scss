@@ -67,9 +67,14 @@ section {
     li {
       
       a {
-          color: #eeedef;
-          border: 1px solid #2b0d4c;
-          background-color: #270672;
+        color: #eeedef;
+        border: 1px solid #2b0d4c;
+        background-color: #270672;
+          
+        &:hover {
+          border: 1px solid #0b0121;
+          background-color: #190349;
+        }
       }
     }
   }
