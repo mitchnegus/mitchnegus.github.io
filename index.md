@@ -4,7 +4,7 @@ Welcome!
 
 My name is Mitch and I am a PhD student at UC Berkeley studying nuclear engineering. 
 Like many of the students I work with on a daily basis, I picked the nuclear field because I am incredibliy passionate about sustainability. 
-As the global human population growns and energy demand increases, finding clean energy sources to meet the needs of modern civilization in an economically feasible and environmentally just way is going to become a critical need.
+As the global human population grows and energy demand increases, finding clean energy sources to meet the needs of modern civilization in an economically feasible and environmentally just way is going to become a critical need.
 I believe that harnessing the energy contained in the nuclei all around us offers our best shot at achieving a clean energy future.
 
 While simulating nuclear physics on some massive supercomputers is my day job, I've discovered a number of other things I'm passionate about here at Berkeley. 
