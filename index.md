@@ -1,6 +1,6 @@
 <img src="portrait.jpg" align="right" style="width: 246px; height: 300px; margin: 0px 30px"> 
 
-Welcome to the site! 
+Welcome! 
 
 My name is Mitch and I am a PhD student at UC Berkeley studying nuclear engineering. 
 Like many of the students I work with on a daily basis, I picked the nuclear field because I am incredibliy passionate about sustainability. 
