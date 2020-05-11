@@ -1,0 +1,96 @@
+---
+---
+
+body {
+	position: relative;
+	top: 0;
+	margin: 0;
+	background-image: linear-gradient(to right, black, #1c0905);
+	color: white;
+  font-family: 'Open Sans', sans-serif;
+	letter-spacing: 1px;
+}
+
+main {
+	margin: 50px 10%;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 {
+	color: #cccccc;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+
+#lander {
+	position: relative;
+	height: 105vh;
+	background-image: url('../img/golden-gate-sunset.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#whoami {
+	position: absolute;
+	top: 70vh;
+	height: 100px;
+	padding: 0 10%;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 28pt;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}
+
+#media-bar {
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 5vh;
+	min-height: 40px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+#media-links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	margin: 5px 0;
+}
+
+#media-links .link {
+	margin: 0 15px;
+	height: 30px;
+	width: 30px;
+	filter: brightness(0.7);
+}
+
+#media-links .link:hover {
+	filter: brightness(0.8);
+}
+
+#media-links .link .icon {
+	height: 30px;
+	width: 30px;
+}
+
+#media-links a {
+	color: #bbbbbb;
+}
+
+main p {
+	text-align: justify;
+}
+
+main h1 {
+	margin-top: 50px;
+}

@@ -1,4 +1,4 @@
-theme: jekyll-theme-midnight
+theme: minima
 title: "Running like a maniac"
 description: "Musings of an open-source nuclear scientist."
-baseurl: mitchnegus.github.io
+baseurl: /mitchnegus.github.io
