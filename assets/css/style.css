@@ -25,18 +25,35 @@ h1, h2, h3, h4, h5 {
 	font-weight: 600;
 }
 
+.banner {
+	height: 5vh;
+	min-height: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 #lander {
 	position: relative;
-	height: 105vh;
+	height: 100vh;
 	background-image: url('../img/golden-gate-sunset.jpg');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
+#lander .banner {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+#initials {
+	height: 80%;
+}
+
 #whoami {
 	position: absolute;
-	top: 70vh;
+	top: 60vh;
 	height: 100px;
 	padding: 0 10%;
 	color: white;
@@ -51,12 +68,9 @@ h1, h2, h3, h4, h5 {
 #media-bar {
 	position: absolute;
 	bottom: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 5vh;
-	min-height: 40px;
-	width: 100%;
+}
+
+#media-bar.banner {
 	background-color: rgba(0, 0, 0, 0.4);
 }
 

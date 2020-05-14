@@ -1,8 +1,12 @@
 <header id="lander">
+
+	<div class="banner">
+		<img id="initials" src="{{ '/assets/img/initials.png' | relative_url }}">
+	</div>
 	<div id="whoami">
 	</div>
 
-	<div id="media-bar">
+	<div id="media-bar" class="banner">
 		<ul id="media-links">
 			<li class="link">
 				<a href="https://github.com/mitchnegus">
