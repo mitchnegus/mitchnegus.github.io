@@ -17,7 +17,7 @@
 		'Distance runner'
 	];
 	// Pick a random title to end on
-	let randomTitleIndex = Math.floor(Math.random()*(optionalTitles.length-1))
+	let randomTitleIndex = Math.floor(Math.random()*optionalTitles.length)
 	let randomTitle = optionalTitles[randomTitleIndex]
 	titles.push(randomTitle);
 
