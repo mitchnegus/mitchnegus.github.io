@@ -31,7 +31,7 @@
 		const delete_pause = 2500;
 
 		// Generate the animation for each title
-		let titleDelay = 1500;
+		let titleDelay = 2000;
 		let deleteDelay = 0;
 		for (let i = 0; i < titles.length; i++) {
 			// Type the title
