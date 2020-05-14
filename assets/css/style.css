@@ -12,7 +12,9 @@ body {
 }
 
 main {
-	margin: 50px 10%;
+	padding: 50px 10%;
+	min-height: 95vh;
+	box-sizing: border-box;
 }
 
 a {
@@ -23,6 +25,10 @@ h1, h2, h3, h4, h5 {
 	color: #cccccc;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
+}
+
+.hidden {
+	opacity: 0;
 }
 
 .banner {
@@ -43,8 +49,10 @@ h1, h2, h3, h4, h5 {
 	background-size: cover;
 }
 
-#lander .banner {
+#initials-bar {
+	position: fixed;
 	background-color: rgba(0, 0, 0, 0.1);
+	transition: opacity 0.2s;
 }
 
 #initials {
@@ -68,9 +76,6 @@ h1, h2, h3, h4, h5 {
 #media-bar {
 	position: absolute;
 	bottom: 0;
-}
-
-#media-bar.banner {
 	background-color: rgba(0, 0, 0, 0.4);
 }
 

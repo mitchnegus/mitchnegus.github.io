@@ -22,7 +22,7 @@
 	titles.push(randomTitle);
 
 	// Get the object where the title will be displayed
-	const display = document.getElementById('whoami');
+	const display = $('#whoami')[0];
 
 	function typewriter(titles, display) {
 		// Define parameters of the animation.

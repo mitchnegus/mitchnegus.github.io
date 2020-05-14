@@ -1,8 +1,9 @@
 <header id="lander">
 
-	<div class="banner">
+	<div id="initials-bar" class="banner">
 		<img id="initials" src="{{ '/assets/img/initials.png' | relative_url }}">
 	</div>
+
 	<div id="whoami">
 	</div>
 
