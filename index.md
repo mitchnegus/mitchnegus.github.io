@@ -24,6 +24,11 @@
 					<img class="icon" src="{{ '/assets/img/icons/strava.png' | relative_url }}">
 				</a>
 			</li>
+			<li class="link">
+				<a href="https://twitter.com/mitchnegus">
+					<img class="icon" src="{{ '/assets/img/icons/twitter.png' | relative_url }}">
+				</a>
+			</li>
 		</ul>
 	</div>
 </header>

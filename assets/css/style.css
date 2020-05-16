@@ -3,8 +3,20 @@
 
 @keyframes fadeIn {
 	  0% { opacity: 0; }
-	 30% { opacity: 0; }
+	 33% { opacity: 0; }
 	100% { opacity: 1; }
+}
+
+@keyframes slideInDown {
+  	0% { margin-top: -100% }
+   50% { margin-top: -100% }
+	100% { margin-top:    0% }
+}
+
+@keyframes slideInUp {
+  	0% { margin-bottom: -100% }
+   50% { margin-bottom: -100% }
+	100% { margin-bottom:    0% }
 }
 
 body {
@@ -58,8 +70,10 @@ h1, h2, h3, h4, h5 {
 
 #initials-bar {
 	position: fixed;
+	min-height: 60px;
 	background-color: rgba(0, 0, 0, 0.1);
 	transition: opacity 0.2s;
+	animation: slideInDown 1.5s;
 }
 
 #initials {
@@ -84,6 +98,7 @@ h1, h2, h3, h4, h5 {
 	position: absolute;
 	bottom: 0;
 	background-color: rgba(0, 0, 0, 0.4);
+	animation: slideInUp 1.5s;
 }
 
 #media-links {
@@ -99,10 +114,12 @@ h1, h2, h3, h4, h5 {
 	height: 30px;
 	width: 30px;
 	filter: brightness(0.7);
+	transition: filter 0.2s;
 }
 
 #media-links .link:hover {
-	filter: brightness(0.8);
+	filter: none;/*drop-shadow(1px 1px 3px #606060)
+				  drop-shadow(-1px -1px 3px #606060);*/					
 }
 
 #media-links .link .icon {
