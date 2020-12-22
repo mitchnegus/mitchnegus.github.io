@@ -83,4 +83,8 @@
 		I can't think of anywhere I'd rather be studying than at the intersection of these two fields.
 	</p>
 
+	<div class="links">
+		<a href="negus_cv">CV</a>
+	</div>
+
 </main>
