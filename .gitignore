@@ -6,6 +6,9 @@ instructor
 *.xls*
 *.pptx
 
+# Vim swap files
+*.swp
+
 # Ruby files for local website preview
 .ruby-version
 Gemfile
