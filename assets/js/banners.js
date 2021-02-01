@@ -6,18 +6,20 @@
 (function() {
 
 	// Show or hide the object depending on page position
-	function toggleAtPosition($object, position) {
-		if ($(window).scrollTop() > position) {
-			$object.addClass('hidden');
+	function toggleClassAtPosition($object, position, className) {
+		if ($(window).scrollTop() >= position) {
+			$object.addClass(className);
 		} else {
-			$object.removeClass('hidden');
+			$object.removeClass(className);
 		}
 	}
 
 	$(window).scroll(function() {
+		// Hide the top banner when below 1/3 of the screen
 		$initialsBar = $('#initials-bar');
-		toggleAtPosition($initialsBar, $(window).height()/3);
+		toggleClassAtPosition($initialsBar, $(window).height()/3, 'hidden');
+		$mediaBar = $('#media-bar');
+		toggleClassAtPosition($mediaBar, 0, 'not-loaded-top');
 	});
 
-	
 })();
