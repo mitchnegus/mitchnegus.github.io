@@ -20,7 +20,7 @@
 
 title: "Running like a maniac"
 email: negus@berkeley.edu
-description: "Musings of an open-source nuclear scientist."
+# description: "Musings of an open-source nuclear scientist."
 baseurl: "/mitchnegus.github.io" # the subpath of your site, e.g. /blog
 # url: "https://mitchnegus.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mitchnegus
