@@ -7,11 +7,11 @@
 
 	// Provide a list of titles to type
 	const titles = [
-		'PhD Candidate',
+		'Cybersecurity Researcher',
 		'Software Developer',
 	]
 	const optionalTitles = [
-		'Nuclear scientist',
+		'Nuclear engineer',
 		'Teacher',
 		'Open source enthusiast',
 		'Distance runner'
@@ -28,7 +28,7 @@
 		// Define parameters of the animation.
 		const speed = 50;
 		const type_pause = 500;
-		const delete_pause = 2500;
+		const delete_pause = 3000;
 
 		// Generate the animation for each title
 		let titleDelay = 2500;
@@ -43,7 +43,7 @@
 				deleteDelay = titleDelay + titleTime + delete_pause;
 				setTimeout(deleteTitle, deleteDelay, title, display, speed);
 				// Add to the delays for the next title
-				titleDelay = deleteDelay + titleTime + type_pause; 
+				titleDelay = deleteDelay + titleTime + type_pause;
 			}
 		}
 	}
