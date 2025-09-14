@@ -4,168 +4,169 @@
  */
 
 @keyframes fadeIn {
-	  0% { opacity: 0; }
-	 33% { opacity: 0; }
-	100% { opacity: 1; }
+    0% { opacity: 0; }
+   33% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 @keyframes slideInDown {
-  	0% { margin-top: -100% }
+    0% { margin-top: -100% }
    50% { margin-top: -100% }
-	100% { margin-top:    0% }
+  100% { margin-top:    0% }
 }
 
 @keyframes slideInUp {
-  	0% { margin-bottom: -100% }
+    0% { margin-bottom: -100% }
    50% { margin-bottom: -100% }
-	100% { margin-bottom:    0% }
+  100% { margin-bottom:    0% }
 }
 
 body {
-	position: relative;
-	top: 0;
-	margin: 0;
-	background-image: linear-gradient(to right, black, #1c0905);
-	color: white;
+  position: relative;
+  top: 0;
+  margin: 0;
+  background-image: linear-gradient(to right, black, #1c0905);
+  color: white;
   font-family: 'Open Sans', sans-serif;
-	letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 main {
-	display: flex;
-	padding: 50px 10%;
-	min-height: 95vh;
-	box-sizing: border-box;
+  display: flex;
+  padding: 50px 10%;
+  min-height: 95vh;
+  box-sizing: border-box;
 }
 
 a {
-	color: inherit;
-	text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 h1, h2, h3, h4, h5 {
-	color: #cccccc;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 600;
+  color: #cccccc;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
 
 .hidden {
-	opacity: 0;
+  opacity: 0;
 }
 
 .banner {
-	height: 5vh;
-	min-height: 50px;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  height: 5vh;
+  min-height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #lander {
-	position: relative;
-	height: 100vh;
-	background-image: url('../img/golden-gate-sunset.jpg');
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	animation: fadeIn 1.5s;
+  position: relative;
+  height: 100vh;
+  background-image: url('../img/golden-gate-sunset.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: fadeIn 1.5s;
 }
 
 #initials-bar {
-	position: fixed;
-	min-height: 60px;
-	background-color: rgba(0, 0, 0, 0.1);
-	transition: opacity 0.2s;
-	animation: slideInDown 1.5s;
+  position: fixed;
+  min-height: 60px;
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: opacity 0.2s;
+  animation: slideInDown 1.5s;
 }
 
 #initials {
-	height: 80%;
+  height: 80%;
 }
 
 #whoami {
-	position: absolute;
-	top: 60vh;
-	height: 100px;
-	padding: 0 10%;
-	color: white;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 28pt;
-	font-weight: 600;
-	text-transform: uppercase;
-	text-shadow: 0 3px 10px black;
-	letter-spacing: 10px;
+  position: absolute;
+  top: 60vh;
+  height: 100px;
+  padding: 0 10%;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28pt;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-shadow: 0 3px 10px black;
+  letter-spacing: 10px;
 }
 
 #media-bar {
-	position: absolute;
-	bottom: 0;
-	background-color: rgba(0, 0, 0, 0.4);
-	animation: slideInUp 1.5s;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  animation: slideInUp 1.5s;
 }
 
 #media-bar.not-loaded-top {
-	animation: none;
+  animation: none;
 }
 
 
 #media-links {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	list-style: none;
-	margin: 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 5px 0;
 }
 
 #media-links .link {
-	margin: 0 15px;
-	height: 30px;
-	width: 30px;
-	filter: brightness(0.7);
-	transition: filter 0.2s;
+  margin: 0 15px;
+  height: 30px;
+  width: 30px;
+  filter: brightness(0.7);
+  transition: filter 0.2s;
 }
 
 #media-links .link:hover {
-	filter: none;/*drop-shadow(1px 1px 3px #606060)
-				  drop-shadow(-1px -1px 3px #606060);*/					
+  filter: none;/*drop-shadow(1px 1px 3px #606060)
+          drop-shadow(-1px -1px 3px #606060);*/
 }
 
 #media-links .link .icon {
-	height: 30px;
-	width: 30px;
+  height: 30px;
+  width: 30px;
 }
 
 #media-links a {
-	color: #bbbbbb;
+  color: #bbbbbb;
 }
 
 .content {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 .bio {
-	width: 80%;
-	margin-top: 250px;
+  width: 40%;
+  margin-top: 150px;
 }
 
 .bio p {
-	font-size: 20pt;
-	text-align: justify;
+  font-size: 10pt;
+  text-align: justify;
 }
 
 .bio h1 {
-	margin-top: 50px;
+  margin-top: 50px;
 }
 
 .links {
-	margin: auto 0 100px; /*10px;*/
-	color: #cccccc;
+  margin: auto 0 100px; /*10px;*/
+  color: #cccccc;
 }
 
 .links a {
-	margin: 0 50px;
-	font-size: 18pt;
+  margin: 0 50px;
+  font-size: 18pt;
 }
